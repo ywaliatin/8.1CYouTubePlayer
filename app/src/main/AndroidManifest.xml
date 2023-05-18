@@ -19,7 +19,7 @@
 
         <meta-data
             android:name="com.google.android.youtube.api_key"
-            android:value="AIzaSyCvhJSQNBp585A38-wCfuFfla-qU91Vwyw" />
+            android:value=" " />
 
 
         <activity
