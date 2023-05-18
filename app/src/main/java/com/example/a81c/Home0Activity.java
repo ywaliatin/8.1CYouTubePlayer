@@ -95,8 +95,8 @@ public class Home0Activity extends AppCompatActivity {
         Cursor cursor = db.query(PlaylistDatabaseHelper.TABLE_PLAYLIST, null, null, null, null, null, null);
         if (cursor != null) {
             while (cursor.moveToNext()) {
-                //String youtubeLink = cursor.getString(cursor.getColumnIndex(PlaylistDatabaseHelper.COLUMN_YOUTUBE_LINK));
-                //playlistItems.add(youtubeLink);
+                String youtubeLink = cursor.getString(cursor.getColumnIndex(PlaylistDatabaseHelper.COLUMN_YOUTUBE_LINK));
+                playlistItems.add(youtubeLink);
             }
             cursor.close();
         }
